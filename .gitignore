@@ -31,3 +31,4 @@ scripts/screenshots/
 .npm-cache-proxy/
 .npm-cache-tencent/
 .npm-cache/
+.npmrc
