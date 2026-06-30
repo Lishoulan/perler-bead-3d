@@ -2,6 +2,7 @@ import { useStore } from './lib/store';
 import { Scene } from './components/BeadEditor';
 import Palette from './components/Palette';
 import Toolbar from './components/Toolbar';
+import PresetGallery from './components/PresetGallery';
 import { BlueprintBrowser } from './components/BlueprintView';
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
               <Scene />
             </div>
             <aside className="w-80 p-4 flex flex-col gap-4 overflow-y-auto bg-slate-800/50">
+              <PresetGallery />
               <Palette />
               <Toolbar />
             </aside>
